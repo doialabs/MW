@@ -1,0 +1,27 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.55;
+  color: #111;
+  background: #fff;
+}
+
+a { color: #0000ee; text-decoration: underline; }
+a:visited { color: #551a8b; }
+a:focus-visible { outline: 2px solid #0000ee; outline-offset: 2px; }
+
+h1 { font-size: 1.5em; margin-bottom: 0.2em; }
+h2 { font-size: 1.1em; margin-top: 2em; }
+
+.subtitle { color: #555; margin-top: 0; }
+
+nav { font-size: 0.9em; margin-bottom: 2.5em; }
+
+img { max-width: 100%; height: auto; }
+
+figure { margin: 2.5em 0 2.5em 0; }
+figcaption { font-size: 0.85em; color: #555; margin-top: 0.4em; }
+
+footer { margin-top: 4em; font-size: 0.85em; color: #777; }
