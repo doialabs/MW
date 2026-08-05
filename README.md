@@ -8,7 +8,7 @@ one shared stylesheet. No frameworks, no build step, no analytics.
 ```
 index.html        home page
 about.html        bio and portrait
-cv.html           exhibitions, awards, press (TODO entries pending real data)
+cv.html           exhibitions, awards, press
 gallery.html      artwork index
 gallery-1.html    Artwork I
 gallery-2.html    Artwork II
@@ -19,8 +19,10 @@ contact.html      email, commissions, socials
 styles.css        the only stylesheet
 favicon.ico       placeholder favicon
 netlify.toml      404 redirect rule for Netlify
-img/              placeholder images (og.png, portrait.png, gallery-*.png), to be
-                  replaced with real artwork
+img/              image files, one per work, named after the piece (equus.png,
+                  domesticity.png, etc.), plus og.png and portrait.png. The
+                  committed files are gray placeholders: drop in the real
+                  artwork under the same filenames to replace them
 ```
 
 ## Deploying
