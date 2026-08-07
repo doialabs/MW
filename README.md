@@ -7,7 +7,7 @@ one shared stylesheet. No frameworks, no build step, no analytics.
 
 ```
 index.html        home page: the whole site index, one list going down
-cv.html           exhibitions, awards, press contact
+cv.html           in-person exhibitions and awards, verbatim from the artist
 404.html          not found page
 styles.css        the only stylesheet
 favicon.ico       placeholder favicon
