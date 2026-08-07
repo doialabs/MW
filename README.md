@@ -7,15 +7,13 @@ one shared stylesheet. No frameworks, no build step, no analytics.
 
 ```
 index.html        home page: the whole site index, one list going down
-about.html        bio and portrait (not linked from the home page)
-cv.html           exhibitions, awards, press
-contact.html      email, commissions, socials (not linked from the home page)
+cv.html           exhibitions, awards, press contact
 404.html          not found page
 styles.css        the only stylesheet
 favicon.ico       placeholder favicon
-netlify.toml      404 redirect rule for Netlify
-img/              og.png and portrait.png, gray placeholders to be replaced
-                  with real images under the same filenames
+netlify.toml      redirects from old Squarespace URLs, plus the 404 rule
+img/              og.png, a gray placeholder to be replaced with a real
+                  image under the same filename
 ```
 
 ## Deploying
