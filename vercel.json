@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/artist-cv", "destination": "/cv.html", "permanent": true },
+    { "source": "/about", "destination": "/", "permanent": true },
+    { "source": "/contact", "destination": "/", "permanent": true },
+    { "source": "/gallery", "destination": "/", "permanent": true },
+    { "source": "/artwork-:n", "destination": "/", "permanent": true },
+    { "source": "/store/:path*", "destination": "/", "permanent": true }
+  ]
+}
